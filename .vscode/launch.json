@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug C++",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}.exe",  // 确保路径正确
+      "cwd": "${fileDirname}",  // 工作目录设为当前文件所在目录
+      "args": [],
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb.exe"  // 确保 gdb 路径正确
+    }
+  ]
+}
